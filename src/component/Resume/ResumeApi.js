@@ -1,4 +1,4 @@
-const ResumeApi = [
+export const ResumeApi = [
   {
     id: 1,
     category: "education",
@@ -15,6 +15,11 @@ const ResumeApi = [
     desc: "The degree of bachelor of Accounting and Auditing",
     rate: "4.50/5",
   },
+  
+]
+
+
+export const ResumeApi1 = [
   {
     id: 4,
     category: "experience",
@@ -26,4 +31,6 @@ const ResumeApi = [
   
 ]
 
-export default ResumeApi
+
+
+// export default ResumeApi
