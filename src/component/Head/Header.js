@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-// import logo from "../pic/logo.png"
+import logo from "../pic/ava1.png"
 
 const Header = () => {
   // fixed Header
@@ -15,36 +15,27 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo'>
-           <h5>Dac Thinh</h5>
+            <img src={logo} style={{width: 60, height:60}} alt="" />
           </div>
 
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
-                <a href='#home'>home</a>
+                <a  href='#home'><h3>Home</h3></a>
               </li>
               <li>
-                <a href='#skill'>Skill</a>
+                <a href='#skill'><h3>Skill</h3></a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a href='#portfolio'><h3>Portfolio</h3></a>
               </li>
               <li>
-                <a href='#resume'>resume</a>
-              </li>
-              {/* <li>
-                <a href='#clients'>clients</a>
+                <a href='#resume'><h3>Resume</h3></a>
               </li>
               <li>
-                <a href='#blog'>blog</a>
-              </li> */}
-              <li>
-                <a href='#contact'>contact</a>
+                <a href='#contact'><h3>Contact</h3></a>
               </li>
-              {/* <li>
-                <button className='home-btn'>BUY NOW</button>
-              </li> */}
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
