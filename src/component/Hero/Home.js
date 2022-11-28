@@ -37,7 +37,7 @@ const Home = () => {
               </div>
               <div className='col_1'>
                 <h4>Download CV</h4>
-                <a href="https://drive.google.com/drive/folders/1Wm1BdNhig1-UsXHR-yx0oDfOlbr1PjYM" rel="noreferrer" target="_blank" className='btn_shadow'>
+                <a href="2022.Dev.NgoDacThinh.docx" download>
                   <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-cv-recruitment-agency-flaticons-lineal-color-flat-icons-3.png" alt='' />
                 </a>
               </div>
